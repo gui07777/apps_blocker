@@ -86,7 +86,7 @@ class _HomePageState extends State<HomePage> {
                       SizedBox(height: 50),
                       ElevatedButton(
                         onPressed: () {
-                          Navigator.push(
+                          Navigator.pushReplacement(
                             context,
                             MaterialPageRoute(
                               builder: (context) => const BlockerScreen(),
